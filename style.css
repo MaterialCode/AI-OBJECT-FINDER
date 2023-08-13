@@ -1,24 +1,27 @@
-body
-{
-background-position: center;
-background-size: cover;
+@font-face {
+  font-family: "CircularSTD";
+  src: url(circular-std-medium-500.ttf);
 }
 
-.heading
-{
-font-size: 23px;
-width: 100%;
-margin: 0px;
+body {
+  background-position: center;
+  background-size: cover;
+  font-family: "CircularSTD", sans-serif !important;
 }
 
-#status , #number_of_objects
-{
-font-size: 18px;
+.heading {
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
 }
 
-canvas
-{
-box-shadow: 5px 5px 5px lightgrey;
-border-radius: 10px;
-margin-top: 180px;
+#status,
+#number_of_objects {
+  font-size: 18px;
+}
+
+canvas {
+  box-shadow: 5px 5px 5px lightgrey;
+  border-radius: 10px;
+  margin-top: 180px;
 }
